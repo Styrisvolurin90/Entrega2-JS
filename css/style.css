@@ -1,0 +1,331 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ebebeb;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  overflow: visible;
+}
+
+.nav-link {
+  color: #ebebeb !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  color: #ebebeb;
+}
+
+.navbar-brand {
+  align-items: center;
+}
+
+.nav-item {
+  font-family: "Montserrat", sans-serif;
+  color: #ebebeb;
+}
+
+#logoconquer {
+  max-width: 40%;
+}
+
+footer {
+  background-color: #333;
+  color: #ebebeb;
+  padding: 40px 0;
+}
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  max-height: 250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer div .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  max-height: 250px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer div .footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer div .footer-links li {
+  margin: 10px 0;
+}
+footer div .footer-links a {
+  text-decoration: none;
+  color: #ebebeb;
+}
+footer div .footer-social i {
+  color: #ebebeb;
+}
+footer div .footer-logo img {
+  max-width: 100px;
+  height: auto;
+}
+footer div .footer-social a {
+  margin-right: 10px;
+}
+footer div .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+footer div .footer-bottom p {
+  font-size: 14px;
+}
+
+article div div img {
+  max-width: 10%;
+  align-items: center;
+  align-content: center;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  align-items: center;
+  align-content: center;
+}
+
+.card-title {
+  font-weight: 800;
+  align-items: center;
+  align-content: center;
+}
+
+img.card-img-top-icon {
+  max-width: 10%;
+  align-items: center;
+  align-content: center;
+  margin-top: 1rem;
+}
+
+.card-text {
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  box-sizing: content-box;
+  height: 6rem;
+  overflow: hidden;
+}
+
+#condiciones .card {
+  flex-grow: 1;
+}
+
+#legales {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 800;
+}
+
+.promociones__inicio {
+  background-color: red;
+  color: #ebebeb;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+#contacto {
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
+  color: #333;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+#titulocontacto {
+  font-weight: 600;
+  font-size: 4rem;
+  color: #333;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding: 400 0 400 0;
+  font-size: 3rem;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #ebebeb;
+}
+
+/*Formulario*/
+.formulario-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.campo {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #0056b3;
+}
+
+div div div h1 {
+  font-weight: 800;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+  text-align: center;
+}
+div div div div div p {
+  font-weight: 800;
+}
+
+aside div p {
+  background-color: #333;
+}
+
+.separador, aside div p {
+  color: #ebebeb;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+#carruselPlayera {
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+#carouselExampleIndicators {
+  margin-bottom: 2rem;
+}
+
+.carousel {
+  margin-top: 10rem;
+  align-items: center;
+  align-content: center;
+  display: flex;
+}
+
+.description {
+  font-weight: 700;
+  font-size: medium;
+  font-family: "Montserrat";
+  text-align: left;
+  align-items: left;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.description h1 {
+  font-weight: 700;
+}
+.description h3 {
+  font-weight: 600;
+}
+.description p {
+  font-weight: 300;
+}
+
+#error404 {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

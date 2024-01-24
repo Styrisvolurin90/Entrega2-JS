@@ -1,0 +1,52 @@
+article {
+    div {
+        div {
+            img {
+                max-width: 10%;
+                align-items: center;
+                align-content: center;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
+
+.card {
+    display: flex;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    align-content: center;
+}
+
+.card-title {
+    font-weight: 800;
+    align-items: center;
+    align-content: center;
+}
+
+img.card-img-top-icon {
+    max-width: 10%;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.card-text {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: content-box;
+    height: 6rem;
+    overflow: hidden;
+}
+
+#condiciones {
+    .card {
+        flex-grow: 1;
+    }
+}

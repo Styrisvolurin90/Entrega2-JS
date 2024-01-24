@@ -1,0 +1,98 @@
+#contacto {
+    text-align: center;
+    font-weight: 800;
+    font-size: 4rem;
+    color: #333;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+#titulocontacto {
+    font-weight: 600;
+    font-size: 4rem;
+    color: #333;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 400 0 400 0;
+    font-size: 3rem;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    text-align: center;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ebebeb;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #ebebeb;
+}
+
+/*Formulario*/
+.formulario-container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
