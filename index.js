@@ -36,7 +36,7 @@ function mostrarPlayera(codigo) {
 function mostrarPrecio(codigo) {
     switch (codigo) {
         case 1:
-            alert(nombre + ", " + "tiene un precio de $450") 
+            alert(nombre + ", " + "tiene un precio de $450")
         case 2:
             alert(nombre + ", " + "tiene un precio de $250")
         case 3:
@@ -58,9 +58,19 @@ function consultarPlayeras() {
 }
 
 
-function calcularEnvio () {
-    for (let i = 4000; ;i++) {
-        
+function calcularCostoEnvio(codigoPostal) {
+    let codigoPostal = prompt(nombre + "," + "Escribe tu Código Postal para calcular tu envío")
+    if (codigoPostal < 4000 || codigoPostal > 5000) {
+        return "No se puede enviar";
+    } else if (codigoPostal >= 4001 && codigoPostal <= 4500) {
+        return "Costo de envío: 199";
+    } else if (codigoPostal >= 4501 && codigoPostal <= 4999) {
+        return "Costo de envío: 99";
     }
 }
+
+// Ejemplo de uso:
+const codigoPostal = 4200; // Reemplaza con el código postal real
+const costoEnvio = calcularCostoEnvio(codigoPostal);
+console.log(costoEnvio);
 
